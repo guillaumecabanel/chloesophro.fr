@@ -1,0 +1,16 @@
+items:
+  -
+    title: Contact
+    url: /contact
+  -
+    title: Accompagnement
+    url: /accompagnement
+  -
+    title: Le cabinet
+    url: /cabinet
+  -
+    title: Tarifs
+    url: /tarifs
+  -
+    title: Avis
+    url: /avis
