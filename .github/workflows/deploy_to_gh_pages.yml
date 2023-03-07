@@ -1,0 +1,51 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+# This workflow will download a prebuilt Ruby version, install dependencies and run tests with Rake
+# For more information see: https://github.com/marketplace/actions/setup-ruby-jruby-and-truffleruby
+
+name: Deploy Middleman to GH pages
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        ruby-version: ['3.0']
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Ruby
+    # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
+    # change this to (see https://github.com/ruby/setup-ruby#versioning):
+    # uses: ruby/setup-ruby@v1
+      uses: ruby/setup-ruby@ee2113536afb7f793eed4ce60e8d3b26db912da4 # v1.127.0
+      with:
+        ruby-version: ${{ matrix.ruby-version }}
+        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+
+    - name: Setup Node.js environment
+      uses: actions/setup-node@v3.6.0
+      with:
+        node-version: 18.x
+        cache-dependency-path: package-lock.json
+        
+    - name: Install packages
+      run: npm install
+        
+    - name: Build Middleman
+      run: bundle exec middleman build
+      
+    - name: Upload GitHub Pages artifact
+      uses: actions/upload-pages-artifact@v1.0.7
+      with:
+        path: /build
+      
+    - name: Deploy GitHub Pages site
+      uses: actions/deploy-pages@v1.2.4
+
