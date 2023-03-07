@@ -1,0 +1,19 @@
+items:
+  -
+    caption: À distance
+    title: Séances en visio
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    icon: house
+    text_color: text-yellow-600
+  -
+    caption: RNCP
+    title: Sophrologue certifiée
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    icon: file-certificate
+    text_color: text-blue-600
+  -
+    caption: RNCP
+    title: Sophrologue certifiée
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    icon: file-certificate
+    text_color: text-red-600
