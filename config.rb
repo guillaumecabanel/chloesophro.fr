@@ -9,9 +9,9 @@ set :js_dir, "assets/javascripts"
 
 activate :external_pipeline,
   name: :tailwind,
-  command: "npx tailwindcss -i ./source/assets/stylesheets/site.css -o ./dist/assets/stylesheets/site.css #{ build? ? '--minify' : '--watch'}",
+  command: "npx tailwindcss -i ./source/assets/stylesheets/site.css -o ./#{ build? ? 'build' : 'dist'}/assets/stylesheets/site.css #{ build? ? '--minify' : '--watch'}",
   latency: 2,
-  source: "./dist/"
+  source: "./dist"
 
 configure :build do
   activate :gzip
