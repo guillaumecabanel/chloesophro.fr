@@ -5,14 +5,14 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "Middleman" %></title>
+    <title><%= current_page.data.title || data.config.metatags.title %></title>
+    <%= partial "partials/metatags" %>
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
     <script src="https://kit.fontawesome.com/c809406173.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <%= partial "partials/header"%>
+    <%= partial "partials/header" %>
     <%= yield %>
   </body>
 </html>

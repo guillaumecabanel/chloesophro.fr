@@ -2,6 +2,8 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
+activate :directory_indexes
+
 set :css_dir, "assets/stylesheets"
 set :fonts_dir, "assets/fonts"
 set :images_dir, "assets/images"
