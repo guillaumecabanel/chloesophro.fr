@@ -1,38 +1,33 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-# This workflow will download a prebuilt Ruby version, install dependencies and run tests with Rake
-# For more information see: https://github.com/marketplace/actions/setup-ruby-jruby-and-truffleruby
-
-name: Deploy Middleman to GH pages
+name: Deploy Middleman build
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
 
 permissions:
-  pages: write      # to deploy to Pages
-  id-token: write   # to verify the deployment originates from an appropriate source
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Upload GitHub Pages artifact
-      uses: actions/upload-pages-artifact@v1.0.7
-
   deploy:
-    needs: build
-
-    # Deploy to the github-pages environment
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
-    # Specify runner + deployment step
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy GitHub Pages
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: 'build'
+      - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1.2.4
+        uses: actions/deploy-pages@v1
