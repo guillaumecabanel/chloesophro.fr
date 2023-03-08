@@ -8,11 +8,11 @@
     <title><%= current_page.data.title || data.config.metatags.title %></title>
     <%= partial "partials/metatags" %>
     <%= stylesheet_link_tag "site" %>
-    <%= javascript_include_tag "site" %>
-    <script src="https://kit.fontawesome.com/c809406173.js" crossorigin="anonymous"></script>
+    <script defer src="https://kit.fontawesome.com/c809406173.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <%= partial "partials/header" %>
     <%= yield %>
+    <%= javascript_include_tag "site" %>
   </body>
 </html>
