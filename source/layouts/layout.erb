@@ -3,15 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><%= current_page.data.title || data.config.metatags.title %></title>
     <%= partial "partials/metatags" %>
     <%= stylesheet_link_tag "site" %>
     <script defer src="https://kit.fontawesome.com/c809406173.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <%= partial "partials/header" %>
     <%= yield %>
     <%= javascript_include_tag "site" %>
   </body>

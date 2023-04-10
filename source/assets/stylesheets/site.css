@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn-primary {
+  @apply rounded-md px-3.5 py-2.5;
+  @apply font-semibold shadow-sm;
+  @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2;
+  @apply text-white bg-teal-900 focus-visible:outline-teal-900 hover:bg-teal-800;
+}

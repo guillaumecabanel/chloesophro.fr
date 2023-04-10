@@ -1,0 +1,34 @@
+<section
+  class="h-screen bg-no-repeat bg-cover bg-center"
+  style="background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url(<%= image_path "bg-hero.webp" %>)">
+
+  <div class="max-w-screen-xl mx-auto p-2 sm:p-6 xl:p-0">
+    <div class="max-w-xl">
+      <h1 class="pt-20 text-4xl font-bold text-teal-900">
+        <%= data.hero.title %>
+      </h1>
+
+      <div class="mt-20 flex space-x-4">
+        <%= image_tag "chloe.webp", class: "rounded-full h-20" %>
+        <div>
+          <h2 class="text-teal-900 font-bold">
+            <%= data.hero.name %><span class="font-medium">, <%= data.hero.position %></span>
+          </h2>
+          <p class="mt-4 text-teal-800 font-medium"><%= data.hero.presentation %></p>
+        </div>
+      </div>
+
+      <div class="mt-20 sm:flex sm:space-x-4 sm:items-center">
+        <div class="sm:w-1/2">
+          <%= link_to data.hero.primary_action, "#", class: "btn-primary block text-center" %>
+        </div>
+        <div class="mt-4 sm:mt-0">
+          <a href="#" class="underline text-teal-800 font-medium">
+            <%= data.hero.secondary_action %>
+            <i class="fa-regular fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
