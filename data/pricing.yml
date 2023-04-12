@@ -1,0 +1,27 @@
+items:
+  -
+    title: Sophrologie
+    amount: 65€
+    unit: séance
+    perks:
+      - Séance découverte de 1h30
+      - Séances suivantes de 1h
+      - Livret d’accompagnement offert
+    info: Compter entre 5 et 10 séances en fonction des objectifs
+  -
+    title: EFT
+    amount: 60€
+    unit: séance
+    perks:
+      - Soulagement dès la première séance
+      - Rituels simples à refaire chez soi
+    info: Suivant les objectifs, plusieurs séances à interval variable peuvent être nécessaires
+  -
+    title: Reiki
+    amount: 70€
+    unit: séance (1h15)
+    perks:
+      - Soins sur table
+      - Transmission d’énergie par apposition des mains
+      - Effets bénéfiques durables
+    info: Pour un effet optimal compter 4 séances

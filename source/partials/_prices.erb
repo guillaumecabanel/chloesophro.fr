@@ -1,0 +1,44 @@
+<section class="bg-white py-24 sm:py-32">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-4xl text-center">
+      <h2 class="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">Tarifs</h2>
+    </div>
+
+
+    <div class="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 md:max-w-2xl md:grid-cols-2 lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-3">
+      <% data.pricing.items.each do |pricing| %>
+        <div class="rounded-3xl p-8 ring-1 ring-gray-200">
+          <h3 id="tier-hobby" class="text-xl font-semibold leading-8 text-gray-900">
+            <%= pricing.title %>
+          </h3>
+          <p class="mt-6 flex items-baseline gap-x-1">
+            <span class="text-4xl font-bold tracking-tight text-gray-900">
+              <%= pricing.amount %>
+            </span>
+            <span class="text-sm font-semibold leading-6 text-gray-600">
+              /<%= pricing.unit%>
+            </span>
+          </p>
+          <a href="#" aria-describedby="tier-hobby" class="mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600 text-teal-600 ring-1 ring-inset ring-teal-200 hover:ring-teal-300">
+            Prendre rendez-vous
+          </a>
+          <ul role="list" class="mt-8 space-y-3 text-sm leading-6 text-gray-600">
+            <% pricing.perks.each do |perk| %>
+              <li class="flex gap-x-3 items-baseline">
+                <i class="fa-regular fa-check fa-xl text-teal-600"></i>
+                <%= perk %>
+              </li>
+            <% end %>
+          </ul>
+
+          <div class="mt-8 flex gap-x-3 items-baseline text-sm leading-6 text-gray-500">
+            <i class="fa-regular fa-circle-info fa-lg text-gray-600"></i>
+            <p>
+              <%= pricing.info %>
+            </p>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</section>

@@ -1,19 +1,15 @@
+title: Trois méthodes pour vous aider à atteindre vos objectifs
+description: À distance ou en présentiel au cabinet
 items:
   -
-    caption: À distance
-    title: Séances en visio
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    icon: house
-    text_color: text-yellow-600
+    title: Sophrologie
+    description: Aller à la rencontre de votre monde intérieur. Spécialisée dans les troubles anxieux et la préparation mentale.
+    icon: head-side-brain
   -
-    caption: RNCP
-    title: Sophrologue certifiée
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    icon: file-certificate
-    text_color: text-blue-600
+    title: EFT
+    description: Libération psycho-énergétique des émotions.
+    icon: dove
   -
-    caption: RNCP
-    title: Sophrologue certifiée
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    icon: file-certificate
-    text_color: text-red-600
+    title: Reiki USUI
+    description: Retrouvez de l’énergie dès la première séance.
+    icon: hands-holding-heart

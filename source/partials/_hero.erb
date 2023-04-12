@@ -1,34 +1,27 @@
 <section
-  class="h-screen bg-no-repeat bg-cover bg-center"
+  class="h-screen bg-no-repeat bg-cover bg-center overflow-hidden pt-14"
   style="background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url(<%= image_path "bg-hero.webp" %>)">
 
-  <div class="max-w-screen-xl mx-auto p-2 sm:p-6 xl:p-0">
-    <div class="max-w-xl">
-      <h1 class="pt-20 text-4xl font-bold text-teal-900">
+  <div class="mx-auto max-w-7xl px-6 py-32 sm:py-40 lg:px-8">
+    <div class="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
+      <h1 class="max-w-2xl text-4xl font-bold tracking-tight text-teal-900 sm:text-6xl lg:col-span-2 xl:col-auto">
         <%= data.hero.title %>
       </h1>
-
-      <div class="mt-20 flex space-x-4">
-        <%= image_tag "chloe.webp", class: "rounded-full h-20" %>
-        <div>
-          <h2 class="text-teal-900 font-bold">
-            <%= data.hero.name %><span class="font-medium">, <%= data.hero.position %></span>
-          </h2>
-          <p class="mt-4 text-teal-800 font-medium"><%= data.hero.presentation %></p>
-        </div>
-      </div>
-
-      <div class="mt-20 sm:flex sm:space-x-4 sm:items-center">
-        <div class="sm:w-1/2">
-          <%= link_to data.hero.primary_action, "#", class: "btn-primary block text-center" %>
-        </div>
-        <div class="mt-4 sm:mt-0">
-          <a href="#" class="underline text-teal-800 font-medium">
+      <div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
+        <p class="text-lg leading-8 text-gray-600">
+          <%= data.hero.presentation %>
+        </p>
+        <div class="mt-10 flex items-center gap-x-6">
+          <a href="#" class="rounded-md bg-teal-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teal-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600">
+            <%= data.hero.primary_action %>
+          </a>
+          <a href="#" class="text-sm font-semibold leading-6 text-teal-900">
             <%= data.hero.secondary_action %>
             <i class="fa-regular fa-arrow-right"></i>
           </a>
         </div>
       </div>
+      <%= image_tag "fake.webp", class: "mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36" %>
     </div>
   </div>
 </section>
