@@ -77,6 +77,9 @@ GEM
     middleman-minify-html (3.4.1)
       htmlcompressor (~> 0.2.0)
       middleman-core (>= 3.2)
+    middleman-sprockets (4.1.1)
+      middleman-core (~> 4.0)
+      sprockets (>= 3.0)
     minitest (5.17.0)
     padrino-helpers (0.15.3)
       i18n (>= 0.6.7, < 2)
@@ -94,6 +97,9 @@ GEM
     sassc (2.4.0)
       ffi (~> 1.9)
     servolux (0.13.0)
+    sprockets (4.2.0)
+      concurrent-ruby (~> 1.0)
+      rack (>= 2.2.4, < 4)
     temple (0.10.0)
     thor (1.2.1)
     tilt (2.0.11)
@@ -111,7 +117,8 @@ PLATFORMS
 DEPENDENCIES
   middleman (~> 4.2)
   middleman-autoprefixer (~> 3.0)
-  middleman-minify-html
+  middleman-minify-html (~> 3.4)
+  middleman-sprockets (~> 4.1)
 
 BUNDLED WITH
    2.4.1
