@@ -1,0 +1,13 @@
+items:
+  -
+    title: Accompagnement
+    path: "#accompagnement"
+  -
+    title: Avis
+    path: "#avis"
+  -
+    title: Tarifs
+    path: "#tarifs"
+  -
+    title: Contact
+    path: "#contact"
