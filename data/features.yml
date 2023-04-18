@@ -1,15 +1,24 @@
 title: Trois méthodes pour vous aider à atteindre vos objectifs
-description: À distance ou en présentiel au cabinet
+description: En présentiel au cabinet ou à distance
 items:
   -
     title: Sophrologie
-    description: Aller à la rencontre de votre monde intérieur. Spécialisée dans les troubles anxieux et la préparation mentale.
+    description: Respiration contrôlée, mouvements doux et visualisations afin de reconnecter le corps, le mental et les émotions pour atteindre un objectif précis.
+    tags:
+      - Accessible à partir de 6 ans.
+      - À titre préventif ou curatif.
+      - Spécialisée dans les troubles anxieux et la préparation mentale.
     icon: head-side-brain
   -
     title: EFT
-    description: Libération psycho-énergétique des émotions.
+    description: Technique de libération émotionnelle s’appuyant sur la médecine traditionnelle chinoise par tapotements de points d’acupression.
+    tags:
+      - Dépendances, addictions, angoisses, phobies, difficultés relationnelles.
     icon: dove
   -
     title: Reiki USUI
-    description: Retrouvez de l’énergie dès la première séance.
+    description: Technique d’origine japonaise de gestion du stress et d’activation du processus d’auto-guérison, par apposition des mains sur certains points du corps.
+    tags:
+      - À titre préventif ou curatif
+      - Rééquilibre énergétique, apaisement physique, psychique et émotionnel.
     icon: hands-holding-heart

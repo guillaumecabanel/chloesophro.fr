@@ -9,5 +9,8 @@ items:
     title: Tarifs
     path: "#tarifs"
   -
+    title: Blog
+    path: "https://blog.chloesophro.fr"
+  -
     title: Contact
     path: "#contact"
