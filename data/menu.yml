@@ -10,7 +10,7 @@ items:
     path: "#tarifs"
   -
     title: Blog
-    path: "https://blog.chloesophro.fr"
+    path: "https://blog.chloesophro.fr?utm_source=chloesophro&utm_content=menu-link"
   -
     title: Contact
     path: "#contact"

@@ -17,12 +17,12 @@ items:
       - Soulagement dès la 1 séance
       - Rituels simples à refaire chez soi
     info: Suivant les objectifs, plusieurs séances à intervalles variables peuvent être nécessaires
-  -
-    title: Reiki
-    amount: 70€
-    unit: séance (1h15)
-    perks:
-      - Soins sur table
-      - Transmission d’énergie par apposition des mains sur le corps
-      - Effets bénéfiques qui perdurent après la séance
-    info: Pour un effet optimal, compter 4 séances
+  # -
+  #   title: Reiki
+  #   amount: 70€
+  #   unit: séance (1h15)
+  #   perks:
+  #     - Soins sur table
+  #     - Transmission d’énergie par apposition des mains sur le corps
+  #     - Effets bénéfiques qui perdurent après la séance
+  #   info: Pour un effet optimal, compter 4 séances

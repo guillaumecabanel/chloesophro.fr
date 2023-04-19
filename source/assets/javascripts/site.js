@@ -37,3 +37,23 @@ anchorLinks.forEach(function(link) {
     });
   });
 });
+
+
+const testimonials = document.querySelector("[data-target='testimonials']");
+
+function horizontalScrollToNextTestimonial() {
+  testimonials.scrollBy({
+    left: testimonials.offsetWidth,
+    behavior: 'smooth'
+  });
+}
+
+function horizontalScrollToPreviousTestimonial() {
+  testimonials.scrollBy({
+    left: -testimonials.offsetWidth,
+    behavior: 'smooth'
+  });
+}
+
+document.getElementById("next-testimonial").addEventListener("click", horizontalScrollToNextTestimonial);
+document.getElementById("previous-testimonial").addEventListener("click", horizontalScrollToPreviousTestimonial);

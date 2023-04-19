@@ -1,4 +1,4 @@
-title: Trois méthodes pour vous aider à atteindre vos objectifs
+title: Deux méthodes pour vous aider à atteindre vos objectifs
 description: En présentiel au cabinet ou à distance
 items:
   -
@@ -9,16 +9,18 @@ items:
       - À titre préventif ou curatif.
       - Spécialisée dans les troubles anxieux et la préparation mentale.
     icon: head-side-brain
+    link: https://blog.chloesophro.fr/index.php/2023/04/19/pourquoi-consulter-en-sophrologie/
   -
     title: EFT
     description: Technique de libération émotionnelle s’appuyant sur la médecine traditionnelle chinoise par tapotements de points d’acupression.
     tags:
       - Dépendances, addictions, angoisses, phobies, difficultés relationnelles.
     icon: dove
-  -
-    title: Reiki USUI
-    description: Technique d’origine japonaise de gestion du stress et d’activation du processus d’auto-guérison, par apposition des mains sur certains points du corps.
-    tags:
-      - À titre préventif ou curatif
-      - Rééquilibre énergétique, apaisement physique, psychique et émotionnel.
-    icon: hands-holding-heart
+    link: https://blog.chloesophro.fr/index.php/2023/04/19/pourquoi-consulter-en-eft/
+  # -
+  #   title: Reiki USUI
+  #   description: Technique d’origine japonaise de gestion du stress et d’activation du processus d’auto-guérison, par apposition des mains sur certains points du corps.
+  #   tags:
+  #     - À titre préventif ou curatif
+  #     - Rééquilibre énergétique, apaisement physique, psychique et émotionnel.
+  #   icon: hands-holding-heart
