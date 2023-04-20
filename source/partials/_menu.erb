@@ -10,8 +10,11 @@
     </div>
     <div class="hidden lg:flex lg:gap-x-12">
       <% data.menu.items.each do |item| %>
-        <%= link_to item.title, item.path, class: "text-sm font-semibold leading-6 text-teal-900" %>
+        <%= link_to item.title, item.path, class: "text-sm font-semibold leading-6 text-teal-900 hover:text-teal-700" %>
       <% end %>
+      <a href="https://www.instagram.com/chloe_sophro/" class="text-sm font-semibold leading-6 text-teal-900 hover:text-teal-700">
+        <i class="fa-brands fa-instagram fa-lg"></i>
+      </a>
     </div>
   </nav>
   <!-- Mobile menu, show/hide based on menu open state. -->
@@ -34,6 +37,9 @@
             <% data.menu.items.each do |item| %>
               <%= link_to item.title, item.path, class: "-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-teal-900 hover:bg-gray-50" %>
             <% end %>
+            <a href="https://www.instagram.com/chloe_sophro/" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-teal-900 hover:bg-gray-50">
+              <i class="fa-brands fa-instagram fa-lg"></i>
+            </a>
         </div>
       </div>
     </div>
