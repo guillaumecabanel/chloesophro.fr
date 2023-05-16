@@ -1,13 +1,14 @@
-title: Deux méthodes pour vous aider à atteindre vos objectifs
+title: Trois méthodes pour vous aider à atteindre vos objectifs
 description: En présentiel au cabinet ou à distance
 items:
   -
     title: Sophrologie
     description: Respiration contrôlée, mouvements doux et visualisations afin de reconnecter le corps, le mental et les émotions pour atteindre un objectif précis.
     tags:
-      - Accessible à partir de 6 ans.
+      - Enfant (à partir de 6 ans) / adolescent / adulte.
       - À titre préventif ou curatif.
       - Spécialisée dans les troubles anxieux et la préparation mentale.
+      - Séance en groupe sur devis.
     icon: head-side-brain
     link: https://blog.chloesophro.fr/index.php/2023/04/19/pourquoi-consulter-en-sophrologie/
   -
@@ -17,10 +18,10 @@ items:
       - Dépendances, addictions, angoisses, phobies, difficultés relationnelles.
     icon: dove
     link: https://blog.chloesophro.fr/index.php/2023/04/19/pourquoi-consulter-en-eft/
-  # -
-  #   title: Reiki USUI
-  #   description: Technique d’origine japonaise de gestion du stress et d’activation du processus d’auto-guérison, par apposition des mains sur certains points du corps.
-  #   tags:
-  #     - À titre préventif ou curatif
-  #     - Rééquilibre énergétique, apaisement physique, psychique et émotionnel.
-  #   icon: hands-holding-heart
+  -
+    title: Reiki USUI
+    description: Technique d’origine japonaise de gestion du stress et d’activation du processus d’auto-guérison, par apposition des mains sur certains points du corps.
+    tags:
+      - À titre préventif ou curatif
+      - Rééquilibre énergétique, apaisement physique, psychique et émotionnel.
+    icon: hands-holding-heart
