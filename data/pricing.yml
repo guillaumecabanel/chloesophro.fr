@@ -5,10 +5,10 @@ items:
     unit: séance
     perks:
       - Au cabinet ou en distanciel (visio)
-      - Séance découverte d’1H30
-      - Séance suivantes de 45 min à 1H
-      - Livret d’accompagnement offert après chaque séance
-    info: Compter entre 5 et 10 séances en fonction de l’objectif
+      - Séance découverte d'1h30
+      - Séance suivantes de 1h
+      - Livret d'accompagnement offert après chaque séance
+    info: Compter entre 5 et 10 séances en fonction de l'objectif
   -
     title: EFT
     amount: 60€
