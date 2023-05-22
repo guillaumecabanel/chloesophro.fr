@@ -57,3 +57,16 @@ function horizontalScrollToPreviousTestimonial() {
 
 document.getElementById("next-testimonial").addEventListener("click", horizontalScrollToNextTestimonial);
 document.getElementById("previous-testimonial").addEventListener("click", horizontalScrollToPreviousTestimonial);
+
+
+// Beam track calendly redirects
+const calendlyLinks = document.querySelectorAll("a[href^='https://calendly.com/']");
+calendlyLinks.forEach(function(link) {
+  link.addEventListener("click", function(event) {
+    event.preventDefault();
+    const linkURL = link.getAttribute("href");
+    const path = linkURL.split("/").pop();
+    window.beam("calendly/" + path);
+    window.location.href = linkURL;
+  });
+});
