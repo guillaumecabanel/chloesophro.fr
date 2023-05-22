@@ -66,7 +66,7 @@ calendlyLinks.forEach(function(link) {
     event.preventDefault();
     const linkURL = link.getAttribute("href");
     const path = linkURL.split("/").pop();
-    window.beam("calendly/" + path);
+    window.beam("/calendly/" + path);
     window.location.href = linkURL;
   });
 });
