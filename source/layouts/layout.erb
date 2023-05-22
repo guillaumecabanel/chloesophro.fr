@@ -2,6 +2,7 @@
 <html lang="fr" class="w-screen overflow-x-hidden">
   <head>
     <meta charset="UTF-8">
+    <script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="38df5164-ee01-49aa-a75d-82295525aa7c" async></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
     <link rel="shortcut icon" href="<%= image_path "favicon.png" %>" type="image/png">
@@ -9,7 +10,6 @@
     <%= partial "partials/metatags" %>
     <%= stylesheet_link_tag "site" %>
     <script defer src="https://kit.fontawesome.com/c809406173.js" crossorigin="anonymous"></script>
-    <script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="38df5164-ee01-49aa-a75d-82295525aa7c" async></script>
   </head>
   <body class="w-screen overflow-x-hidden">
     <%= yield %>

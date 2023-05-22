@@ -38,35 +38,35 @@ anchorLinks.forEach(function(link) {
   });
 });
 
-
+// Horizontal scroll to next testimonial
 const testimonials = document.querySelector("[data-target='testimonials']");
-
 function horizontalScrollToNextTestimonial() {
   testimonials.scrollBy({
     left: testimonials.offsetWidth,
     behavior: 'smooth'
   });
 }
-
 function horizontalScrollToPreviousTestimonial() {
   testimonials.scrollBy({
     left: -testimonials.offsetWidth,
     behavior: 'smooth'
   });
 }
-
 document.getElementById("next-testimonial").addEventListener("click", horizontalScrollToNextTestimonial);
 document.getElementById("previous-testimonial").addEventListener("click", horizontalScrollToPreviousTestimonial);
 
-
 // Beam track calendly redirects
-const calendlyLinks = document.querySelectorAll("a[href^='https://calendly.com/']");
-calendlyLinks.forEach(function(link) {
-  link.addEventListener("click", function(event) {
-    event.preventDefault();
-    const linkURL = link.getAttribute("href");
-    const path = linkURL.split("/").pop();
-    window.beam("/calendly/" + path);
-    window.location.href = linkURL;
+window.addEventListener("DOMContentLoaded", function() {
+  const calendlyLinks = document.querySelectorAll("a[href^='https://calendly.com/']");
+  calendlyLinks.forEach(function(link) {
+    link.addEventListener("click", function(event) {
+      event.preventDefault();
+      const linkURL = link.getAttribute("href");
+      const path = linkURL.split("/").pop();
+      window.beam("/calendly/" + path)
+        .then(function() {
+          window.location.href = linkURL;
+        });
+    });
   });
 });
