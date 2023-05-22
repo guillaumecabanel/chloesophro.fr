@@ -18,13 +18,15 @@ menuLinks.forEach(function(link) {
 
 // Menu background when scrolling
 const menu = document.getElementById("menu");
-document.addEventListener("scroll", function() {
-  if (window.scrollY > 0) {
-    menu.classList.add("bg-teal-50");
-  } else {
-    menu.classList.remove("bg-teal-50");
-  }
-});
+if (menu){
+  document.addEventListener("scroll", function() {
+    if (window.scrollY > 0) {
+      menu.classList.add("bg-teal-50");
+    } else {
+      menu.classList.remove("bg-teal-50");
+    }
+  });
+}
 
 // Smooth scrolling to anchor links
 const anchorLinks = document.querySelectorAll("a[href^='#']");
@@ -40,17 +42,19 @@ anchorLinks.forEach(function(link) {
 
 // Horizontal scroll to next testimonial
 const testimonials = document.querySelector("[data-target='testimonials']");
-function horizontalScrollToNextTestimonial() {
-  testimonials.scrollBy({
-    left: testimonials.offsetWidth,
-    behavior: 'smooth'
-  });
+if(testimonials) {
+  function horizontalScrollToNextTestimonial() {
+    testimonials.scrollBy({
+      left: testimonials.offsetWidth,
+      behavior: 'smooth'
+    });
+  }
+  function horizontalScrollToPreviousTestimonial() {
+    testimonials.scrollBy({
+      left: -testimonials.offsetWidth,
+      behavior: 'smooth'
+    });
+  }
+  document.getElementById("next-testimonial").addEventListener("click", horizontalScrollToNextTestimonial);
+  document.getElementById("previous-testimonial").addEventListener("click", horizontalScrollToPreviousTestimonial);
 }
-function horizontalScrollToPreviousTestimonial() {
-  testimonials.scrollBy({
-    left: -testimonials.offsetWidth,
-    behavior: 'smooth'
-  });
-}
-document.getElementById("next-testimonial").addEventListener("click", horizontalScrollToNextTestimonial);
-document.getElementById("previous-testimonial").addEventListener("click", horizontalScrollToPreviousTestimonial);
