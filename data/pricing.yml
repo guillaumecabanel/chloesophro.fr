@@ -1,28 +1,19 @@
+title: Séance découverte 65€
+description: Cette première séance va permettre de définir votre objectif d'accompagnement.
+footer: "Laisser vous guider : je choisis les outils adaptés à vos besoins. (EFT ou Sophrologie)"
+footer_link: /accompagnements
 items:
   -
-    title: Sophrologie
-    amount: 65€
+    title: En visio
+    amount: ""
     unit: séance
     perks:
-      - Au cabinet ou en distanciel (visio)
-      - Séance découverte d'1h30
-      - Séance suivantes de 1h
-      - Livret d'accompagnement offert après chaque séance
-    info: Compter entre 5 et 10 séances en fonction de l'objectif
+      - Séance d'1h30
+    info: Sur Skype
   -
-    title: EFT
-    amount: 60€
+    title: En cabinet
+    amount: ""
     unit: séance
     perks:
-      - Soulagement dès la 1 séance
-      - Rituels simples à refaire chez soi
-    info: Suivant les objectifs, plusieurs séances à intervalles variables peuvent être nécessaires
-  -
-    title: Reiki
-    amount: 70€
-    unit: séance (1h15)
-    perks:
-      - Soins sur table en cabinet/Soins à distance (même effets)
-      - Transmission d'énergie par apposition des mains sur le corps
-      - Effets bénéfiques qui perdurent après la séance
-    info: Pour un effet optimal, compter 4 séances, espacées au minimum de 48h.
+      - Séance d'1h30
+    info: À Nantes, à 10 minutes du centre-ville

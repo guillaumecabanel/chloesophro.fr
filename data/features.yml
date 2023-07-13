@@ -1,28 +1,34 @@
-title: Trois méthodes pour vous aider à atteindre vos objectifs
-description: En présentiel au cabinet ou à distance
+title: ""
+description: ""
 items:
   -
-    title: Sophrologie
-    description: Respiration contrôlée, mouvements doux et visualisations afin de reconnecter le corps, le mental et les émotions pour atteindre un objectif précis.
+    title: ""
+    description: 100% des personnes accompagnées ont atteint leur objectif en moins de 3 mois. Une moyenne de 5 étoiles sur Google et Résalib
     tags:
-      - Enfant (à partir de 6 ans) / adolescent / adulte.
-      - À titre préventif ou curatif.
-      - Spécialisée dans les troubles anxieux et la préparation mentale.
-      - Séance en groupe sur devis.
-    icon: head-side-brain
-    link: https://blog.chloesophro.fr/index.php/2023/04/19/pourquoi-consulter-en-sophrologie/
+      -
+    icon: stars
+    link: /avis
+    link_caption: Découvrez leurs témoignages
   -
-    title: EFT
-    description: Technique de libération émotionnelle s’appuyant sur la médecine traditionnelle chinoise par tapotements de points d’acupression.
+    title: ""
+    description: >
+      Douleurs thoraciques, palpitations cardiaques, douleurs localisées, vous ressentez des blocages physiques et
+      émotionnels depuis trop longtemps.
+      <br><br>
+      Débarrassez-vous enfin de vos troubles anxieux pour des résultats rapides et durables.
     tags:
-      - Dépendances, addictions, angoisses, phobies, difficultés relationnelles.
-    icon: dove
-    link: https://blog.chloesophro.fr/index.php/2023/04/19/pourquoi-consulter-en-eft/
+      -
+    icon: face-thermometer
+    link: /accompagnements
   -
-    title: Reiki USUI
-    description: Technique d’origine japonaise de gestion du stress et d’activation du processus d’auto-guérison, par apposition des mains sur certains points du corps.
+    title: ""
+    description: ""
     tags:
-      - À titre préventif ou curatif
-      - Rééquilibre énergétique, apaisement physique, psychique et émotionnel.
-    icon: hands-holding-heart
-    link: https://blog.chloesophro.fr/2023-05-10-pourquoi-profiter-dun-soin-reiki/
+      - Sommeil retrouvé
+      - Crise d'angoisses maîtrisées
+      - Séréntié retrouvée après un burn-out
+      - Allergies stoppées
+      - Dépendances vaincues
+      - Anxiétés chroniques soulagées
+    icon: face-smile-beam
+    link: /accompagnements

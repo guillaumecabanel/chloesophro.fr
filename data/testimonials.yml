@@ -1,6 +1,36 @@
 items:
   -
     stars: 5
+    name: Betsy Jez
+    description: >
+      Une expérience que je ne suis pas prête d'oublier !
+      <br>
+      <br>
+      Chloé est une personne formidable, douce et à l'écoute. Les séances sont toujours adaptées à soi, personnalisé
+      avec soin et empathie. Le livret de séance est un outil formidable pour reproduire chez soi ce qui a été vue en
+      séance.
+      <br>
+      <br>
+      Nous avions 3 mois pour gérer mes crises d'angoisses et le pari a été gagnant, je suis heureuse d'avoir croisé la
+      route de Chloé et grâce à elle, j'ai repris confiance en moi, appris à écouter mon corps et mes émotions.
+      Mes crises d'angoisses sont acceptés et sous contrôle.
+      <br>
+      <br>
+      Je vous la recommande chaleureusement et bien plus ! Même sans problématique, les séances de Sophrologie avec
+      Chloé sont un vrai moment de détente 💫
+
+    date: juillet 2023
+    photo_url: https://lh3.googleusercontent.com/a-/AD_cMMQMJKCq5nv4LRbPIH5Dd6L6INPtJrZgigN_389uEIXajXQ=w60-h60-p-rp-mo-br100
+  -
+    stars: 5
+    name: San Drine
+    description: >
+      Très bonne expérience sur l'EFT avec Chloé Roussel. Cela s'est déroulé à distance, très pratique, de façon sereine
+      et en toute confiance. Je ne connaissais pas cette technique, et cela porte déjà ses fruits grâce au programme de
+      suivi personnalisé. Je recommande vivement !
+    photo_url: https://lh3.googleusercontent.com/a/AAcHTteXi46MdkA5so6KE6ENm-cCITZkw_XZ-QP5eeLESmD5=w60-h60-p-rp-mo-br100
+  -
+    stars: 5
     name: Anna Mahé
     description: J’ai suivi 4 séances de Sophrologie avec Chloé et à chaque fois, ça a été une bulle de détente. Que ce soit pour booster sa vitalité ou gérer les angoisses, elle est très compétente! Je recommande!
     date: février 2023
