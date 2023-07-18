@@ -10,7 +10,28 @@
     </div>
     <div class="hidden lg:flex lg:gap-x-12">
       <% data.menu.items.each do |item| %>
-        <%= link_to item.title, item.path, class: "text-sm font-semibold leading-6 text-teal-900 hover:text-teal-700" %>
+        <% if item.subitems %>
+          <!-- dropdown menu -->
+          <div data-controller="dropdown" class="relative">
+            <button type="button" class="text-sm font-semibold leading-6 text-teal-900 hover:text-teal-700 flex items-center">
+              <%= item.title %>
+              <svg class="ml-1 h-5 w-5 text-gray-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.293 6.293a1 1 0 011.414 0L10 8.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" />
+              </svg>
+            </button>
+            <div data-dropdown-target="subitems" class="hidden absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
+              <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
+                <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+                  <% item.subitems.each do |subitem| %>
+                    <%= link_to subitem.title, subitem.path, class: "-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50" %>
+                  <% end %>
+                </div>
+              </div>
+            </div>
+          </div>
+        <% else %>
+          <%= link_to item.title, item.path, class: "text-sm font-semibold leading-6 text-teal-900 hover:text-teal-700" %>
+        <% end %>
       <% end %>
       <a href="https://www.instagram.com/chloe_sophro/" class="text-sm font-semibold leading-6 text-teal-900 hover:text-teal-700">
         <i class="fa-brands fa-instagram fa-lg"></i>
@@ -35,7 +56,28 @@
         <div class="-my-6 divide-y divide-gray-500/10">
           <div class="space-y-2 py-6">
             <% data.menu.items.each do |item| %>
-              <%= link_to item.title, item.path, class: "-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-teal-900 hover:bg-gray-50" %>
+              <% if item.subitems %>
+                <!-- dropdown menu -->
+                <div data-controller="dropdown" class="relative">
+                  <button type="button" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-teal-900 hover:bg-gray-50 flex items-center">
+                    <%= item.title %>
+                    <svg class="ml-2 h-5 w-5 text-gray-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M6.293 6.293a1 1 0 011.414 0L10 8.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" />
+                    </svg>
+                  </button>
+                  <div data-dropdown-target="subitems" class="hidden absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
+                    <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
+                      <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+                        <% item.subitems.each do |subitem| %>
+                          <%= link_to subitem.title, subitem.path, class: "-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50" %>
+                        <% end %>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <% else %>
+                <%= link_to item.title, item.path, class: "-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-teal-900 hover:bg-gray-50" %>
+              <% end %>
             <% end %>
             <a href="https://www.instagram.com/chloe_sophro/" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-teal-900 hover:bg-gray-50">
               <i class="fa-brands fa-instagram fa-lg"></i>

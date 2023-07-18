@@ -58,3 +58,14 @@ if(testimonials) {
   document.getElementById("next-testimonial").addEventListener("click", horizontalScrollToNextTestimonial);
   document.getElementById("previous-testimonial").addEventListener("click", horizontalScrollToPreviousTestimonial);
 }
+
+
+// Dropdowns
+const dropdowns = document.querySelectorAll("[data-controller='dropdown']");
+dropdowns.forEach(function(dropdown) {
+  const toggle = dropdown.querySelector("button");
+  const content = dropdown.querySelector("[data-dropdown-target='subitems']");
+  toggle.addEventListener("click", function() {
+    content.classList.toggle("hidden");
+  });
+});

@@ -1,7 +1,16 @@
 items:
   -
     title: Accompagnement
-    path: "#accompagnement"
+    subitems:
+      -
+        title: Déroulée d'une séance
+        path: /accompagnement
+      -
+        title: Sophrologie
+        path: /accompagnement/sophrologie
+      -
+        title: EFT
+        path: /accompagnement/eft
   -
     title: Avis
     path: "#avis"
