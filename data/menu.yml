@@ -13,13 +13,13 @@ items:
         path: /accompagnement/eft
   -
     title: Avis
-    path: "#avis"
+    path: "/#avis"
   -
     title: Tarifs
-    path: "#tarifs"
+    path: "/#tarifs"
   -
     title: Blog
     path: "https://blog.chloesophro.fr?utm_source=chloesophro&utm_content=menu-link"
   -
     title: Contact
-    path: "#contact"
+    path: "/#contact"

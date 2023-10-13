@@ -1,6 +1,15 @@
 items:
   -
     stars: 5
+    name: Christophe Bellot
+    description: >
+      Très belle découverte (grâce aux avis Google) de l'accompagnement EFT de Chloé que je ne peux que recommander.
+      Chloé m'a aidé à me libérer de certaines émotions et avancer rapidement vers une belle sérénité. Mon seul regret
+      est de ne pas l'avoir rencontré plus tôt ;)
+    date: septembre 2023
+    photo_url: https://lh3.googleusercontent.com/a-/ALV-UjVRzzX-ZcViRqNPFBRzCxlDgx4ZtzbyeBP6XX40z0XSqlE=w60-h60-p-rp-mo-br100
+  -
+    stars: 5
     name: Betsy Jez
     description: >
       Une expérience que je ne suis pas prête d'oublier !
@@ -32,13 +41,13 @@ items:
   -
     stars: 5
     name: Anna Mahé
-    description: J’ai suivi 4 séances de Sophrologie avec Chloé et à chaque fois, ça a été une bulle de détente. Que ce soit pour booster sa vitalité ou gérer les angoisses, elle est très compétente! Je recommande!
+    description: J'ai suivi 4 séances de Sophrologie avec Chloé et à chaque fois, ça a été une bulle de détente. Que ce soit pour booster sa vitalité ou gérer les angoisses, elle est très compétente! Je recommande!
     date: février 2023
     photo_url: https://lh3.googleusercontent.com/a-/ACB-R5QTuMxKbkTakCCJkZvqz0cXAvk2Fwpcj1hkZHcJ=w60-h60-p-rp-mo-br100
   -
     stars: 5
     name: Mansouria Hennous
-    description: Excellente sophrologue, très professionnelle, sympathique, humaine , un grand sens de l’écoute, je recommande.
+    description: Excellente sophrologue, très professionnelle, sympathique, humaine , un grand sens de l'écoute, je recommande.
 
     date: novembre 2022
     photo_url: https://lh3.googleusercontent.com/a/AGNmyxY-MODx-PR5JblowQxuBT7RZqIJpB1PEXmh2hPi=w60-h60-p-rp-mo-br100

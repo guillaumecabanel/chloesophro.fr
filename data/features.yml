@@ -7,7 +7,7 @@ items:
     tags:
       -
     icon: stars
-    link: /avis
+    link: "https://maps.app.goo.gl/DtZwgkFpL2QpdB2r8"
     link_caption: Découvrez leurs témoignages
   -
     title: ""
@@ -19,7 +19,7 @@ items:
     tags:
       -
     icon: face-thermometer
-    link: /accompagnements
+    link: /accompagnement/sophrologie
   -
     title: ""
     description: ""
@@ -31,4 +31,4 @@ items:
       - Dépendances vaincues
       - Anxiétés chroniques soulagées
     icon: face-smile-beam
-    link: /accompagnements
+    link: /accompagnement/eft
