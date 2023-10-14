@@ -23,3 +23,6 @@ items:
   -
     title: Contact
     path: "/#contact"
+  -
+    title: Qui suis-je ?
+    path: "/qui-suis-je"
