@@ -1,5 +1,8 @@
 items:
   -
+    title: Accueil
+    path: "/"
+  -
     title: Accompagnement
     subitems:
       -
