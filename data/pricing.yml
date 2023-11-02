@@ -1,19 +1,27 @@
-title: Séance découverte 65€
-description: Cette première séance va permettre de définir votre objectif d'accompagnement.
-footer: "Laisser vous guider : je choisis les outils adaptés à vos besoins. (EFT ou Sophrologie)"
+title: Accompagnement sur mesure
+description: ""
+footer: ""
 footer_link: /accompagnement
 items:
   -
-    title: En visio
-    amount: ""
+    title: Séance découverte
+    amount: 65€
     unit: séance
     perks:
       - Séance d'1h30
-    info: Sur Skype
+      - "Laisser vous guider : je choisis les outils adaptés à vos besoins. (EFT et/ou Sophrologie)"
+    info: En visio ou à Nantes, à 10 minutes du centre-ville
   -
-    title: En cabinet
-    amount: ""
+    title: Première séance de Sophrologie
+    amount: 65€
     unit: séance
     perks:
       - Séance d'1h30
-    info: À Nantes, à 10 minutes du centre-ville
+    info: En visio ou à Nantes, à 10 minutes du centre-ville
+  -
+    title: Première séance d'EFT
+    amount: 65€
+    unit: séance
+    perks:
+      - Séance d'1h00
+    info: En visio ou à Nantes, à 10 minutes du centre-ville
