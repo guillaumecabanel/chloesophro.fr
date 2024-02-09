@@ -14,7 +14,7 @@
               <% end %>
             </div>
             <blockquote class="mt-10 text-xl font-semibold leading-8 tracking-tight text-teal-900 sm:text-2xl sm:leading-9">
-              <p>“<%= testimonial.description %>”</p>
+              <p>“<%= testimonial.description.truncate_words(40) %>“</p>
             </blockquote>
             <figcaption class="mt-10 flex items-center gap-x-6">
               <img class="h-12 w-12 rounded-full bg-gray-50" src="<%= testimonial.photo_url%>" alt="Testimonial user picture">
