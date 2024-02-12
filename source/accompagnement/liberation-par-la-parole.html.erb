@@ -1,5 +1,5 @@
 ---
-title: EFT | Chloé Roussel - Sophrologue à Nantes et en visio
+title: Libération par la parole | Chloé Roussel - Sophrologue à Nantes et en visio
 ---
 
 <%= partial "partials/menu" %>
@@ -9,20 +9,24 @@ title: EFT | Chloé Roussel - Sophrologue à Nantes et en visio
     <div class="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
       <div class="lg:pr-4">
         <div class="lg:max-w-lg mt-2">
-          <h1 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">EFT</h1>
-          <h4 class="text-sm tracking-wide uppercase font-bold text-gray-500">Emotional freedom technique</h4>
+          <h1 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Libération par la parole</h1>
         </div>
       </div>
     </div>
     <div class="hidden lg:block -ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-      <%= image_tag "acc_eft.png", class: "w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[30rem]", alt: "illustration" %>
+      <%= image_tag "acc_liberation_parole.png", class: "w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[30rem]", alt: "illustration" %>
 
       <div class="mt-10 flex items-center gap-x-6">
         <a href="/calendrier?utm_source=chloesophro&utm_content=eft" class="rounded-md bg-teal-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teal-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600">
           <%= data.hero.primary_action %>
         </a>
-        <a href="https://blog.chloesophro.fr/2023-04-19-pourquoi-consulter-en-eft?utm_source=chloesophro&utm_content=eft" class="text-sm font-semibold leading-6 text-teal-900">
+        <%# <a href="https://blog.chloesophro.fr/2023-04-19-pourquoi-consulter-en-eft?utm_source=chloesophro&utm_content=liberation" class="text-sm font-semibold leading-6 text-teal-900">
           En savoir plus
+          <i class="fa-regular fa-arrow-right"></i>
+        </a> %>
+
+        <a href="/#avis" class="text-sm font-semibold leading-6 text-teal-900">
+          Voir les avis
           <i class="fa-regular fa-arrow-right"></i>
         </a>
       </div>
@@ -31,7 +35,7 @@ title: EFT | Chloé Roussel - Sophrologue à Nantes et en visio
       <div class="lg:pr-4">
         <div class="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
           <h2 class="text-2xl font-bold tracking-tight text-gray-900">
-            Comprendre et libérer l'origine de votre problème.
+            Un temps pour soi.
           </h2>
           <dl class="mt-6">
             <dt class="text-base font-semibold leading-7 text-teal-600">
@@ -53,31 +57,33 @@ title: EFT | Chloé Roussel - Sophrologue à Nantes et en visio
             <dt class="text-base font-semibold leading-7 text-teal-600">
               Pour quelles raisons consulter&nbsp;?
             </dt>
-            <dd>
-              <ul class="list-inside list-disc">
-                <li>Peurs, phobies</li>
-                <li>Angoisses récurrentes</li>
-                <li>Dépendance affective et aux substances (tabac, alcool, nourriture)</li>
-                <li>Deuil et séparation</li>
-                <li>Souvenirs traumatisants</li>
-              </ul>
+            <dd class="space-y-3">
+              <p>
+                Par moments, il arrive que l'on ressente le besoin ou l'envie de converser avec quelqu'un.
+                Trouver une personne disponible, prête à écouter pleinement, peut être précieux, le temps d'un moment.
+              </p>
+              <p>
+                Je vous propose une heure dédiée, offrant un espace pour exprimer ce qui pèse sur le cœur.
+                Cela peut contribuer à éclaircir une situation, à la rendre plus légère, et à explorer des pistes pour
+                avancer.
+              </p>
+              <p>
+                Ce temps est déstiné à vous recentrer, à ralentir, à exprimer, à voir les choses avec un nouveau regard.
+                Il offre une liberté totale pour vous confier, sans jugement, en toute confiance.
+              </p>
+              <p>
+                L'objectif est de vous aider à prendre du recul sur ce que vous vivez, à changer votre perception, et à
+                croitre ainsi, votre confiance en vous.
+              </p>
             </dd>
           </dl>
           <dl class="mt-6">
             <dt class="text-base font-semibold leading-7 text-teal-600">
-              Pour quels résultats&nbsp;?
+              Outils utilisés
             </dt>
             <dd>
-              Soulagements dès la première séance.
-            </dd>
-          </dl>
-          <dl class="mt-6">
-            <dt class="text-base font-semibold leading-7 text-teal-600">
-              Combien de séances sont nécessaires&nbsp;?
-            </dt>
-            <dd>
-              Suivant les objectifs, plusieurs séances à intervalles variables
-              peuvent être nécessaires.
+              Écoute active, <abbr title="Communication Non Violente" class="cursor-help">CNV</abbr>, exercices de respiration guidée,
+              exercices pratiques de développement personnel, biodécodage de vos maux, relaxation, outils énergétiques.
             </dd>
           </dl>
           <dl class="mt-6">
@@ -85,16 +91,9 @@ title: EFT | Chloé Roussel - Sophrologue à Nantes et en visio
               Tarif d'une séance&nbsp;?
             </dt>
             <dd>
-              65€ par séance. Je vous invite à vous rapprocher de votre mutuelle
-              pour connaître les modalités de prise en charge.
+              65€ par séance.
             </dd>
           </dl>
-
-          <p class="mt-6 font-semibold text-teal-900">
-            <i class="fa-solid fa-droplet text-blue-500"></i>
-            Il est important de boire de l'eau lors d'une séance d'EFT ainsi que pour toute autre thérapie d'énergie.
-            Pensez à rapporter votre gourde pour la séance.
-          </p>
         </div>
       </div>
     </div>

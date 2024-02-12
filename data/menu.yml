@@ -14,6 +14,12 @@ items:
       -
         title: EFT
         path: /accompagnement/eft
+      -
+        title: Libération par la parole
+        path: /accompagnement/liberation-par-la-parole
+      -
+        title: Préparation mentale en milieu sportif
+        path: /accompagnement/preparation-mentale-en-milieu-sportif
   -
     title: Avis
     path: "/#avis"
