@@ -14,7 +14,7 @@
               <% end %>
             </div>
             <blockquote class="mt-10 text-xl font-semibold leading-8 tracking-tight text-teal-900 sm:text-2xl sm:leading-9">
-              <p>“<%= testimonial.description.truncate_words(40) %>“</p>
+              <p>"<%= truncate_words(testimonial.description, 40) %>"</p>
             </blockquote>
             <figcaption class="mt-10 flex items-center gap-x-6">
               <img class="h-12 w-12 rounded-full bg-gray-50" src="<%= testimonial.photo_url%>" alt="Testimonial user picture">
@@ -22,7 +22,7 @@
                 <div class="font-semibold text-teal-900"><%= testimonial.name %></div>
                 <div class="mt-0.5 text-gray-600">
                   <p>Visité en <%= testimonial.date %></p>
-                  <a class="font-semibold text-blue-600" href="https://maps.app.goo.gl/DtZwgkFpL2QpdB2r8" target="_blank" rel="noopener noreferrer">
+                  <a class="font-semibold text-blue-600" href="<%= data.site.google_reviews_url %>" target="_blank" rel="noopener noreferrer">
                     Avis Google
                     <i class="fa-regular fa-arrow-up-right-from-square"></i>
                   </a>
@@ -35,12 +35,12 @@
     </div>
 
     <div class="flex justify-between mt-10">
-      <button id="previous-testimonial" class="p-10 sm:absolute top-1/2 ml-10 left-0 transform -translate-y-1/2 -translate-x-1/2">
+      <button id="previous-testimonial" class="p-10 sm:absolute top-1/2 ml-10 left-0 transform -translate-y-1/2 -translate-x-1/2" aria-label="Avis précédent">
         <i class="fa-solid fa-chevron-left"></i>
       </button>
 
       <!-- next button -->
-      <button id="next-testimonial" class="p-10 sm:absolute top-1/2 mr-10 right-0 transform -translate-y-1/2 translate-x-1/2">
+      <button id="next-testimonial" class="p-10 sm:absolute top-1/2 mr-10 right-0 transform -translate-y-1/2 translate-x-1/2" aria-label="Avis suivant">
         <i class="fa-solid fa-chevron-right"></i>
       </button>
     </div>
