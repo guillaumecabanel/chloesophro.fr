@@ -19,7 +19,7 @@ configure :build do
   activate :gzip
   activate :asset_hash
   activate :minify_html
-  activate :minify_javascript
+  activate :minify_javascript, inline: true, compressor: -> { Uglifier.new(harmony: true) }
   activate :imageoptim
 end
 
