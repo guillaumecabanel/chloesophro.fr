@@ -781,6 +781,15 @@ details p {
   font-weight: 600;
 }
 
+.site-footer .footer-mediation {
+  margin-top: 0.5rem;
+  font-size: 0.78rem;
+}
+
+.site-footer .footer-mediation a {
+  font-weight: normal;
+}
+
 /* --- Fade-in animations --- */
 .fade-in {
   opacity: 0;
